@@ -69,6 +69,7 @@ public class TaskManagerController {
 
     @FXML
     public void onListClicked() {
+        // Сохраняет
         int selectedIndex = listView.getSelectionModel().getSelectedIndex();
         if (selectedIndex >= 0) {
             Task selectedTask = listView.getItems().get(selectedIndex);
